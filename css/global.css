@@ -18,3 +18,19 @@ img{
     max-width: 100%;
     display: block
 }
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1240px;
+    margin: 40px auto;
+    padding: 10px 10px;
+    gap: 120px;
+}
+
+@media(max-width:1024px){
+    .main-container{
+        grid-template-columns: 1fr 1fr;
+        gap:40px
+    }
+}
