@@ -1,0 +1,121 @@
+.main-container .experience{
+    color: #e0e0e0;
+    word-break: break-all;
+}
+.experience-container{
+    display: grid;
+    gap:10vh
+}
+.experience-container span{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    max-width: 50ch;
+}
+
+.experience-description{
+    display: grid;
+    gap:20px;  
+}
+
+.card-description{
+    position: relative;
+    display: flex;
+    background: #f0f0f0;
+    border-radius: 4px;
+    padding: 40px;
+}
+
+.experience-year{
+    position: absolute;
+    left: -120px;
+    
+}
+
+.experience-year:before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 20px;   
+    background: linear-gradient(180deg, #B6F829 0%, #67DD0A 100%);
+    left: 120px
+}
+
+.experience-title h2{
+    font-size: 1,125rem;
+    margin-bottom: 20px;
+}
+
+
+.card-description p{
+    font-size: 1.14rem;
+    max-width: 40ch;
+}
+
+.card-description ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.card-description li{
+   list-style: none;
+   padding: 5px 10px;
+   background-color: #fff;
+   border-radius: 5px;
+   margin: 0px 10px 10px 0px;
+}
+
+
+@media (max-width: 1920px) {
+    .experience-container span{
+        font-size: 1.3rem;
+        max-width: 45ch;
+    
+    }
+    .card-description p{
+        font-size: 1rem;
+        max-width: 35ch;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-container .experience{
+        font-size: 4.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .experience-container span{
+        font-size: 1.25rem;
+        max-width: 45ch;
+        padding: 0px 20px;
+    
+    }
+
+    .main-container .experience{
+        font-size: 3.5rem;
+        line-height: 5rem;
+        color: #030303;
+        text-transform:capitalize;
+        justify-content: left;
+        padding: 0 20px;
+    }
+    .card-description{
+        display:block
+    }
+    
+    .card-description p{
+        margin-bottom: 10px;
+    }
+
+    .experience-year{
+        position: initial;
+        margin-bottom:2px
+       
+    }
+
+    .experience-year:before{
+      left: -1px
+    }
+    
+}

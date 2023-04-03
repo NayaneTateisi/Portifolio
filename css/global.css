@@ -28,6 +28,15 @@ img{
     gap: 120px;
 }
 
+
+.main-container .title{
+    font-size: 10rem;
+    font-weight: 700;
+    line-height: 10rem;
+    text-transform: uppercase;
+    
+}
+
 @media(max-width:1024px){
     .main-container{
         grid-template-columns: 1fr 1fr;
