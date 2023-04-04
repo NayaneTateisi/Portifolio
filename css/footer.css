@@ -1,0 +1,8 @@
+.contact-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1240px;
+    margin: 1.5px auto 0px auto;
+    padding:100px;
+    gap: 120px;
+}
