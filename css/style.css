@@ -32,6 +32,8 @@
 
 
 .formation-container{
+    max-width: 1240px;
+    margin: 1.5px auto 0px auto;
     background-color: #141414;
     padding: 20px 20px;
     position: relative
@@ -141,10 +143,6 @@
     bottom:-54px
 }
 
-.contact{
-    background-color: #000;
-    color: white
-}
 
 @media (max-width: 678px){
     .main-container{
@@ -165,5 +163,26 @@
 
     .content-main p{
         font-size: 1rem;
+    }
+
+    .formation-container .title{
+        font-size: 4.5rem;
+        line-height: 5rem;
+        text-transform: capitalize;
+    }
+
+    .cards{
+        flex-direction: column;
+        gap:1.5vh;
+        margin: 40px 0px;
+    }
+
+    .cards ul{
+        width: 90%;
+    }
+
+    .formation-extenses h3::before{
+        position: initial;
+        margin-bottom: 8px;
     }
 }
