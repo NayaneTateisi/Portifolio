@@ -16,6 +16,7 @@ h1,h2,h3,p{
 
 img{
     max-width: 100%;
+    max-height: auto;
     display: block
 }
 
