@@ -1,6 +1,7 @@
 @import './global.css';
 @import './header.css';
 @import './maincontent.css';
+@import './content.css';
 @import './footer.css';
 
 
@@ -46,7 +47,7 @@
 
 .card-formation p{
     color: #a3a4a3;;
-    max-width: 40ch;
+    max-width: 50ch;
     font-size:1.5rem;
     line-height: 1.33;
     margin-bottom: 60px;
@@ -107,13 +108,17 @@
 
     left: -1px;
 }
-.formation-extenses{
+.formation-extenses h3{
     font-size: 0.875rem;
     line-height:1.4;
     color:#8f8f8f;
     text-transform: uppercase;
     margin-bottom: 30px;
     position: relative;
+}
+
+.formation-extenses li{
+    color: #8f8f8f
 }
 .formation-extenses h3::before{
     display: block;
@@ -127,9 +132,9 @@
 }
 
 .formation-extenses li{
-    font-size: 1.125rem;
+    font-size: 1rem;
     line-height:1.1;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .formation-container::after{
@@ -137,7 +142,7 @@
     display:block;
     width: 130px;
     height: 100px;
-    background: url('../img/detalhe.svg') no-repeat center;
+    background: url('../img/favicon.svg') no-repeat center;
     position: absolute;
     left: 6px;
     bottom:-54px

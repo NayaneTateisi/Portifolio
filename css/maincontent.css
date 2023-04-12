@@ -61,6 +61,8 @@
 }
 
 .card-description li{
+    min-width: 20%;
+    text-align: center;
    list-style: none;
    padding: 10px 10px;
    background-color: #fff;
