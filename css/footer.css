@@ -1,6 +1,6 @@
 .contact{
     max-width: 1240px;
-    margin: 1.5px auto 0px auto;
+    margin: 1px auto 0px auto;
     padding: 20px;
     background-color: #000;
     color: white
@@ -9,7 +9,7 @@
 .contact-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding:100px 100px 20px 10px;
+    padding:100px 10px 0px 10px;
     gap: 80px;
 }
 
@@ -20,21 +20,12 @@
     color: #ccc
 }
 
-.contact-container span{
-    display: flex;
-    font-weight: 700;
-    font-size: 1.5rem;
-    line-height: 1.1;
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+
 .contact-container a{
-    color: white;
-    font-weight: 700;
-    font-size: 1.5rem;
-    line-height: 1.1;
+    padding: 0px;
+    max-width: 40px; 
+    padding: 0 20px;
+
 }
 
 
@@ -43,6 +34,17 @@
     font-size: 0.88rem;
     color: #8f8f8f
 }
+
+.contact-container img{
+    max-width: 100%;
+}
+
+.contact-container div{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
 
 @media (max-width:678px){
     .contact-container{
