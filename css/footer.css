@@ -66,4 +66,16 @@
         justify-content: center;
         margin-top: 20px;
     }
+
+    .contact-container div {
+        padding: 10px auto;
+        justify-content: center;
+    }
+
+
+
+    .contact-container p {
+        text-align: center
+    }
+
 }
