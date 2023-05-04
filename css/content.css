@@ -198,4 +198,9 @@
         position: initial;
         margin-bottom: 8px;
     }
+
+
+    .content-main h1::before {
+        background-image:none;
+    }
 }
