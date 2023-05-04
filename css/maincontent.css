@@ -26,6 +26,7 @@
     gap:20px;
 }
 .experience-title{
+    width: 35vh;
     margin-bottom: 10px;
 }
 .experience-year{
