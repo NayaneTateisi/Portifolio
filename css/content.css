@@ -22,7 +22,7 @@
 }
 
 .content-main h1{
-    font-size: 5rem;
+    font-size: 4.25rem;
     font-weight: 700;
     position: relative;
 }
@@ -59,6 +59,7 @@
     font-size:1.5rem;
     line-height: 1.33;
     margin-bottom: 60px;
+    text-align: justify;
 
 }
 .card-formation strong{
@@ -68,8 +69,9 @@
 .cards{
     display: flex;
     gap:20vh 2vh;
-    margin: 40px 0px
+    margin: 20px 0px 40px 0px;
 }
+
 
 .cards ul{
     background-color: #000;
@@ -124,6 +126,34 @@
     margin-bottom: 30px;
     position: relative;
 }
+
+.project-extenses h3{
+    font-size: 0.875rem;
+    line-height:1.4;
+    color:#8f8f8f;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+.project-extenses li{
+    color: #8f8f8f;
+    font-size: 1rem;
+    line-height:1.1;
+    margin-bottom: 10px;
+}
+.project-extenses h3::before{
+    display: block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: url("../img/cursos.svg") no-repeat center center;
+    position: absolute;
+    left: -36px;
+    top:-4px
+}
+
 
 .formation-extenses li{
     color: #8f8f8f
@@ -187,7 +217,7 @@
     .cards{
         flex-direction: column;
         gap:1.5vh;
-        margin: 40px 0px;
+        margin: 20px 0px;
     }
 
     .cards ul{
