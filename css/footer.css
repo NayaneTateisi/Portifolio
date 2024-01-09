@@ -28,6 +28,9 @@
 
 }
 
+.contact-container .social-medias{
+    grid-column: 1/-1;
+}
 
 .contact-container .copyright{
     grid-column: 1/-1;
